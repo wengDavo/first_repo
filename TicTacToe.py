@@ -1,4 +1,3 @@
-from tkinter import font
 import customtkinter as ctk
 from itertools import permutations
 
