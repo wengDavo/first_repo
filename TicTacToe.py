@@ -1,8 +1,6 @@
 from tkinter import font
 import customtkinter as ctk
-import random
 from itertools import permutations
-import time
 
 
 class TicTacToeBoard(ctk.CTk):
@@ -90,7 +88,7 @@ class TicTacToeBoard(ctk.CTk):
             
         
 class TicTacToeLogic:
-    def __init__(self, player_1 = 'Weng', player_2='Mummy'):
+    def __init__(self, player_1 = 'player_1', player_2='weng'):
         self.player = {'player_1': player_1,'player_2': player_2}
         self.marker = {'player_1': 'X','player_2': 'O'}
         self.color = {'player_1':'yellow','player_2':'brown'}

@@ -1,2 +1,2 @@
 # first_repo
-my first repo for basic projects
+first repository for basic projects
